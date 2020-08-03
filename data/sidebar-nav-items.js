@@ -13,6 +13,12 @@ export default function () {
       htmlAfter: "",
     },
     {
+      title: "Password checker",
+      to: "/password-checker",
+      htmlBefore: '<i class="material-icons">view_module</i>',
+      htmlAfter: "",
+    },
+    {
       title: "Hex To Text",
       to: "/hex-to-string",
       htmlBefore: '<i class="material-icons">view_module</i>',
