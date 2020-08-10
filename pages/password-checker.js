@@ -62,6 +62,7 @@ class StringToHexConvertor extends React.Component {
                                 <FormInput
                                   id="password"
                                   onChange={this.password}
+                                  value={this.state.password}
                                   placeholder="password"
                                   className="mb-2"
                                 />

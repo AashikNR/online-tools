@@ -16,7 +16,7 @@ import {
 import PageTitle from "../components/common/PageTitle";
 import { polygon, polygoncode } from "../utils/PolygonVertex";
 
-class StringToHexConvertor extends React.Component {
+class Polygon extends React.Component {
   state = {
     centerx: 100,
     centery: 100,
@@ -355,8 +355,8 @@ class StringToHexConvertor extends React.Component {
   }
 }
 
-StringToHexConvertor.getInitialProps = () => {
+Polygon.getInitialProps = () => {
   return {};
 };
 
-export default StringToHexConvertor;
+export default Polygon;
